@@ -1,1 +1,0 @@
-import{Z as o}from"./index-BxKYFLTH.js";async function s(e){try{return(await o.post("/companies/new-password",e)).data}catch(r){throw console.error("Erreur lors de la connexion:",r),r}}async function t(e){try{return(await o.get(`/api/partner/${e}/otp-resend`)).data}catch(r){throw console.error("Erreur lors de la création du modèle",r),r}}export{s as n,t as r};
